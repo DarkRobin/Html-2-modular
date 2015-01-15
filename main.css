@@ -1,0 +1,165 @@
+/* ADD YOUR STYLES HERE */
+.complete{
+
+width: 100%;
+
+
+
+
+}
+.borbutt{
+	border-bottom: 1px solid #C0C0C0;
+	border-top: 1px solid #C0C0C0;
+
+
+}
+
+
+.rs{
+	padding-right: 140px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.rs1{
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+
+
+}
+
+.strong{
+
+	text-decoration: bold;
+}
+.space{
+
+	padding: 20px 20px 20px 20px;
+
+}
+
+.txtlrg{
+	text-align: center;
+	font-size: 2em;
+}
+
+.txtsml{
+	text-align: center;
+	font-size: 0.50em;
+	color: #C0C0C0;
+}
+
+.fill{
+	background-color: #66CCFF;
+
+
+}
+
+.bar{
+	padding-bottom: 5px;
+	border-right: 10px;
+	font-size: small;
+	width: 20px;
+
+
+
+}
+
+.w21{
+	width: 100%;
+	background-color: #66CCFF;
+	width: 99%;
+}
+
+.w12{
+	width: 100%;
+	background-color: #66CCFF;
+	width: 57.1%;
+}
+.w8{
+	width: 38.1%;
+	background-color: #66CCFF;
+
+}
+.w7{
+	width: 33.3%;
+	background-color: #66CCFF;
+
+}
+.w6{
+	width: 28.8%;
+	background-color: #66CCFF;
+
+}
+.w5{
+	width: 23.8%;
+	background-color: #66CCFF;
+
+}
+.w4{
+	width: 19.0%;
+	background-color: #66CCFF;
+
+}
+.w3{
+	width: 14.3%;
+	background-color: #66CCFF;
+
+}
+
+.lightbox{
+	padding: 100px;
+	background-color: #636363;
+
+
+}
+
+.whitebox{
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	padding: 25px ;
+}
+ .button{
+ 	text-decoration: none;
+ 	color: white;
+ 	background-color: #FF5C6F;
+ 	padding-left: 30px;
+ 	padding-right: 30px;
+ 	padding-top: 7px;
+ 	padding-bottom: 7px;
+ 	margin: 5px;
+ 	border-radius: 10px;
+ 
+ 	 }
+
+ 	.b-right{
+ 		float: right;
+ 	}
+ 	
+ 	.right{
+ 		float: right;
+ 		width: 700px;
+ 	}
+
+ 	.left{
+ 		float: left;
+ 	}
+
+ .right-2{
+ 	float: right;
+ 	width: 650px;
+ }
+
+ .left-2{
+
+ 	float: left;
+ 	margin-top: 65px;
+
+ }
+
+}
+
+
+

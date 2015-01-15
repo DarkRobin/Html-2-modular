@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Modularity</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="framework.css">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+  	<div class="instructions-container">
+
+  		<ol class="instruction-list">
+
+			  <li>
+  				<h1 class="instruction-title">Data Table</h1>
+
+	    		<p class="instruction-text">Style a table full of data so that it looks nicer than the brower defaults.</p>
+					<div class="instruction-answer">
+						<!-- Edit here -->
+						<table class="complete">
+							<tr>
+								<td class="rs1">0</td>
+								<td class="rs">Sean</td>
+								<td class="rs">Daaken</td>
+								<td class="rs">@seandaken</td>
+							</tr>
+							<tr class="borbutt">
+								<td class="rs1">1</td>
+								<td class="rs">Raine</td>
+								<td class="rs">Lourie</td>
+								<td class="rs">@metaraine</td>
+							</tr>
+							<tr>
+								<td class="rs1">2</td>
+								<td class="rs">Matt</td>
+								<td class="rs">Null</td>
+								<td class="rs">@nullempire</td>
+							</tr>
+						</table>
+				    <!-- End editable area -->
+					</div>
+
+	    		<p class="instruction-text">It should also handle header rows...</p>
+					<div class="instruction-answer">
+						<!-- Edit here -->
+						<table>
+							<thead class="strong">
+								<tr>
+									<th class="rs1">#</th>
+									<th class="rs">First Name</th>
+									<th class="rs">Last Name</th>
+									<th class="rs">Username</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="borbutt">
+									<td class="rs1">0</td>
+									<td class="rs">Sean</td>
+									<td class="rs">Daaken</td>
+									<td class="rs">@seandaken</td>
+								</tr>
+								<tr class="borbutt">
+									<td class="rs1">1</td>
+									<td class="rs">Raine</td>
+									<td class="rs">Lourie</td>
+									<td class="rs">@metaraine</td>
+								</tr>
+								<tr>
+									<td class="rs1">2</td>
+									<td class="rs">Matt</td>
+									<td class="rs">Null</td>
+									<td class="rs">@nullempire</td>
+								</tr>
+							</tbody>
+						</table>
+				    <!-- End editable area -->
+					</div>
+
+			  </li>
+
+  			<li>
+  				<h1 class="instruction-title">Stats</h1>
+
+	    		<p class="instruction-text">Three columns, three prominent numbers, three small labels</p>
+					<div class="instruction-answer">
+			    	<!-- Edit here -->
+			    	<table>
+			    		<tbody>
+			    			<tr class="borbutt">
+			    				<td class="space"><div class="txtlrg">7</div><div class="txtsml">followers</div></td>
+			    				<td class="space"><div class="txtlrg">59</div><div class="txtsml">starred</div></td>
+			    				<td class="space"><div class="txtlrg">28</div><div class="txtsml">following</div></td>
+			    			</tr>
+			    		</tbody>
+			    	</table>
+				    <!-- End editable area -->
+			    </div>
+			  </li>
+
+  			<li>
+  				<h1 class="instruction-title">Bar Chart</h1>
+
+	    		<p class="instruction-text">Bar widths are set in the HTML as if they were populated from the back-end. Everything else should be styled with CSS.</p>
+					<div class="instruction-answer">
+			    	<!-- Edit here -->
+			    	<table>
+			    		<tr class="bar">
+			    			<th class="bar">Javascript</th>
+			    			<td class="w21"><div style="width: 99%">21%</div></td>
+			    		</tr>
+			    		<tr>
+			    			<th class="bar">Ruby</th>
+			    			<td><div class="w12">12%</div></td>
+			    		</tr>
+			    		<tr>
+			    			<th class="bar">Java</th>
+			    			<td><div class="w8">8%</div></td>
+			    		</tr>
+			    		<tr>
+			    			<th class="bar">Python</th>
+			    			<td><div class="w8">8%</div></td>
+			    		</tr>
+			    		<tr>
+			    			<th class="bar">Shell</th>
+			    			<td><div class="w8">8%</div></td>
+			    		</tr>
+			    		<tr>
+			    			<th class="bar">PHP</th>
+			    			<td><div class="w7">7%</div></td>
+			    		</tr>
+			    		<tr>
+			    			<th class="bar">C</th>
+			    			<td><div class="w6">6%</div></td>
+			    		</tr>
+			    		<tr>
+			    			<th class="bar">C++</th>
+			    			<td><div class="w5">5%</div></td>
+			    		</tr>
+			    		<tr>
+			    			<th class="bar">Perl</th>
+			    			<td><div class="w4">4%</div></td>
+			    		</tr>
+			    		<tr>
+			    			<th class="bar">Objective-C</th>
+			    			<td><div class="w3">3%</div></td>
+			    		</tr>
+			    	</table>
+				    <!-- End editable area -->
+			    </div>
+			  </li>
+
+  			<li>
+  				<h1 class="instruction-title">Lightbox</h1>
+
+	    		<p class="instruction-text">The lightbox should display arbitrary content, centered vertically and horizontally, with everything behind it (the rest of the page) darkened. It should obscure the entire screen, no matter where you are on the page. You may want to disable these styles when you're not actively working on them, otherwise they'll cover the whole page.</p>
+					<div class="instruction-answer">
+			    	<!-- Edit here -->
+			    	<div>
+			    		<div class="lightbox">
+				    		<div class="whitebox">
+					    		<h3>Hello</h3>
+						    	<p>Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears. Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+						    	<div class="b-right">
+						    		<a class="button" href="#">Close</a>
+						    	</div>
+				    		</div>
+				    	</div>
+			    	</div>
+				    <!-- End editable area -->
+			    </div>
+			  </li>
+
+  			<li>
+  				<h1 class="instruction-title">Media Block</h1>
+
+	    		<p class="instruction-text">A media block is a left-floated image with some content beside it. Think Facebook updates.</p>
+					<div class="instruction-answer">
+			    	<!-- Edit here -->
+			    	<img src="http://placehold.it/50" class="left">
+			    	<p class="right">Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+				    <!-- End editable area -->
+			    </div>
+
+	    		<p class="instruction-text">Does it work with a different html structure?</p>
+
+		    	<!-- Edit here -->
+					<div class="instruction-answer">
+			    	<div>
+				    	<img src="http://placehold.it/50" class="left">
+				    </div>
+			    	<div class="right">
+				    	<h2>Cupcake Ipsum</h2>
+				    	<p>Cupcake ipsum dolor sit amet. Gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+				    </div>
+				    <!-- End editable area -->
+				  </div>
+
+	    		<p class="instruction-text">How about nested media objects?</p>
+
+					<div class="instruction-answer">
+			    	<!-- Edit here -->
+			    	<div class="left">
+				    	<img src="http://placehold.it/50">
+				    </div>
+			    	<div class="right">
+				    	<h2>Cupcake Ipsum</h2>
+				    	<p>Cupcake ipsum dolor sit amet gummies lemon drops pastry topping wypas jujubes gummi bears. Cotton candy powder topping bear claw halvah jelly beans bear claw. Chocolate cake ice cream gummies apple pie muffin wafer gummi bears.</p>
+
+				    	<div class="left">
+					    	<img src="http://placehold.it/32">
+					    </div>
+				    	<div class="right-2">
+					    	<h2>I like cupcakes!</h2>
+					    	<p>Cupcake ipsum dolor sit amet caramels jelly beans. Faworki donut applicake cookie. Apple pie wafer gummies biscuit cupcake gummies pastry.</p>
+					    </div>
+
+				    	<div class="left-2">
+					    	<img src="http://placehold.it/32">
+					    </div>
+				    	<div class="right-2">
+					    	<h2>I like cupcakes, too!</h2>
+					    	<p>Cupcake ipsum dolor sit amet donut lemon drops carrot cake topping bonbon powder sweet roll. Lollipop jujubes bonbon chupa chups jelly beans.</p>
+					    </div>
+				    </div>
+				    <!-- End editable area -->
+				  </div>
+
+			  </li>
+
+
+			</ol>
+
+		</div>
+  </body>
+</html>
